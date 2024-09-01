@@ -5,13 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress-open": "cypress open"
+    "cypress-open": "cypress open",
+    "cypress-run": "cypress run --headed --browser edge",
+    "allure:reportOpen": "allure serve allure-results",
+    "allure:reportGenerate": "allure generate --clean --single-file"
   },
   "author": "Viswa",
   "license": "ISC",
   "devDependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^20.1.2",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.2",
+    "allure-commandline": "^2.30.0",
+    "allure-cypress": "^3.0.0-beta.11",
     "cypress": "^13.14.1",
     "ts-loader": "^9.5.1"
   },
