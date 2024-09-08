@@ -46,6 +46,7 @@
     "stepDefinitions": "cypress/support/step_definitions/**/*.js"
   }
 ```
+- https://github.com/glennraya/vscode-settings-json (Complete VS Code Customization)
 
 
 ## Install Cucumber
